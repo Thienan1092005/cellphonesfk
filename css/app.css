@@ -1,0 +1,567 @@
+/* nav bar  */
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #d70018;
+  position: fixed;
+  top: 0;
+}
+.left__item img {
+  height: 80px;
+}
+.left__item ion-icon {
+  height: 60px;
+  width: 60px;
+  left: 20px;
+  position: relative;
+}
+.right {
+  display: flex;
+  justify-content: space-between;
+}
+.right__item {
+  color: white;
+  margin: 0px 30px 0px 50px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.abc {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  right: 20px;
+}
+.abc2 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  right: 10px;
+}
+.abc3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 380px;
+}
+.abc4 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 240px;
+}
+.abc5 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 100px;
+}
+.navbar__item {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left__item ion-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.left__item {
+  color: white;
+  margin: 0 20px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.timkiemvatpham input {
+  width: 350px;
+  height: 40px;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+}
+.checkgiahcm {
+  cursor: pointer;
+  border-radius: 20px;
+  height: 60px;
+  width: 130px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+input,
+input::-webkit-input-placeholder {
+  font-size: 20px;
+  line-height: 3;
+  font-family: "Roboto", sans-serif;
+}
+/* end nav bar  */
+/* phan than web   */
+
+.sanphamsale {
+  height: 450px;
+  width: 1640px;
+  background-image: linear-gradient(to bottom right, #ff00cc, #333399);
+  position: relative;
+  top: 120px;
+  left: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+/* dien  thoai cua an cute  */
+.dienthoai__flex {
+  display: flex;
+  position: relative;
+  top: 10px;
+}
+.boxed {
+  width: 250px;
+  height: 320px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+.boxed img {
+  width: 90%;
+  height: 60%;
+  position: relative;
+  top: 10px;
+}
+.sale {
+  width: 40%;
+  height: 20px;
+  border-radius: 20px;
+  color: white;
+  background-color: red;
+  position: relative;
+  bottom: 180px;
+  font-size: 20px;
+  right: 50px;
+}
+.tensp h1 {
+  height: 30px;
+  width: 90%;
+  font-size: 25px;
+  bottom: 10px;
+  position: relative;
+  left: 5px;
+  font-weight: 700;
+  display: -webkit-box;
+  font-family: "Roboto", sans-serif;
+}
+.price h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #d70018;
+}
+.price {
+  position: relative;
+  top: 10px;
+  right: 50px;
+}
+.saleprice h1 {
+  font-size: 1.2rem;
+  text-decoration: line-through;
+  color: #707070;
+}
+.saleprice {
+  position: relative;
+  bottom: 5px;
+  left: 60px;
+}
+.star {
+  display: flex;
+  color: gold;
+  position: relative;
+  bottom: 5px;
+  left: 10px;
+  font-size: 20px;
+}
+.danhgia h1 {
+  color: #707070;
+  font-size: 1.2rem;
+  opacity: 80%;
+}
+.danhgia {
+  position: relative;
+  bottom: 20px;
+  left: 45px;
+}
+.hotsale img {
+  width: 390px;
+  height: 390px;
+  bottom: 110px;
+  position: relative;
+}
+.cacspdthot {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: hotpink;
+}
+.menu__quangcao {
+  position: relative;
+  right: 50px;
+}
+.cener {
+  position: relative;
+  left: -20px;
+  /* display: none; */
+}
+/* ca san pham dang hot cua shop  */
+.cacspdthhot {
+  padding: 0 25px;
+  width: 90%;
+  height: auto;
+  z-index: inherit;
+  position: relative;
+  top: 140px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Bakbak One", cursive;
+}
+/* san pham  */
+.card {
+  position: relative;
+  width: 19%;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  border:1px solid #333;
+}
+.mac142021 {
+  width: 90%;
+  height: 60%;
+ */
+}
+.card h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  position: absolute;
+}
+.mac142021gia {
+  position: absolute;
+  font-size: 24px;
+  margin-top: 60px;
+  color: rgb(255, 82, 82);
+}
+.sao {
+  display: flex;
+  position: absolute;
+}
+.sao ion-icon {
+  color: gold;
+  font-size: 20px;
+  margin-top: 100px;
+}
+.apple {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.more {
+  position: relative;
+  height: auto;
+  width: 90%;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  top: 150px;
+}
+.boxmore{
+display: flex;
+justify-content: space-between;
+}
+.boxmore2{
+display: flex;
+justify-content: space-between;
+flex-direction: row-reverse;
+margin-top:15px;
+}
+.boxmore__item__1{
+width: 9%;
+height: 150px;
+background-color: #fca5a5;
+border-radius: 10px;
+color: white;
+font-size:25px;
+text-align: center;
+}
+.boxmore__item__2 {
+  width: 9%;
+height: 150px;
+background-color: #FDA4AF;
+border-radius: 10px;
+color: white;
+font-size:25px;
+text-align: center;
+}
+.boxmore__item__3{
+  width: 9%;
+  height: 150px;
+  background-color: #F9A8D4;
+  border-radius: 10px;
+  color: white;
+  font-size:25px;
+  text-align: center;
+}
+.boxmore__item__4{
+  width: 9%;
+  height: 150px;
+  background-color: #C4B5FD;
+  border-radius: 10px;
+  color: white;
+  font-size:25px;
+  text-align: center;
+}
+.boxmore__item__5{
+  width: 9%;
+  height: 150px;
+  background-color: #A5B4FC;
+  border-radius: 10px;
+  color: white;
+  font-size:25px;
+  text-align: center;
+}
+.boxmore__item__6{
+  width: 9%;
+  height: 150px;
+  background-color: #93C5FD;
+  border-radius: 10px;
+  color: white;
+  font-size:25px;
+  text-align: center;
+}
+.boxmore__item__7{
+  width: 9%;
+  height: 150px;
+  background-color: #6EE7B7;
+  border-radius: 10px;
+  color: white;
+  font-size:25px;
+  text-align: center;
+}
+.boxmore__item__8{
+  width: 9%;
+  height: 150px;
+  background-color: #FCD34D;
+  border-radius: 10px;
+  color: white;
+  font-size:25px;
+  text-align: center;
+}
+.boxmore__item__9{
+  width: 9%;
+  height: 150px;
+  background-color: #FDBA74;
+  border-radius: 10px;
+  color: white;
+  font-size:25px;
+  text-align: center;
+}
+.boxmore__item__10{
+  width: 9%;
+  height: 150px;
+  background-color: #D1D5DB;
+  border-radius: 10px;
+  color: white;
+  font-size:25px;
+  text-align: center;
+
+}
+.end {
+  position: relative;
+  display: flex;
+  top: 180px;
+}
+.end ul li {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.d1 {
+  font-size: 18px;
+  position:relative;
+  color:red
+}
+.pttt {
+  font-size: 25px ;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  left: 80px;
+  top:2px;
+}
+.pttt img {
+  width: 400px;
+  height: 200px;
+}
+.pttt2 {
+  font-size: 25px ;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  top:-200px;
+  position: relative;
+  left: 600px;
+}
+.pttt2 h1 {
+  font-size:20px;
+  right: 100px;
+  position: relative;
+}
+.fbadmin {
+  width: 250px;
+  height: 90px;
+  border: none;
+  background: rgb(251,33,117);
+    background: linear-gradient(0deg, rgba(251,33,117,1) 0%, rgba(234,76,137,1) 100%);
+    overflow: hidden;
+}
+.fbadmin a {
+  text-decoration:none ;
+  font-size: 20px;
+  color: #fff;
+}
+.fbadmin:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.fbadmin:hover{
+  opacity: .7;
+}
+.tmcp {
+  text-align: center;
+  bottom: 80px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  color:rgb(109, 109, 109);
+  opacity: 80%;
+}
+.hinhanh {
+  display: flex;
+justify-content: space-between;
+}
+.hinhanh img {
+  width: 24%;
+  height: 250px;
+  border-radius: 20px;
+}
+.ctth {
+  position: relative;
+  margin-top: 10px;
+}
+.apple1  {
+display: flex;
+flex-direction: row-reverse;
+margin-top: 5px;
+}
+.erro {
+  width: 90%;
+  height: 60%;
+}
+.apple8 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  }
+  .menutrai__anhgiua_baanhnhophai {
+    height: 500px;
+    width: 1640px;
+    position: relative;
+    top: 100px;
+    left: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+.menu__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 30px;
+  position: absolute;
+  height: 100%;
+  left: 0;
+}
+.menu__icon ion-icon {
+  margin: top 10px;
+  position: relative;
+}
+.menu__text {
+  font-size: 25px;
+  position: absolute;
+  height: 100%;
+  left: 45px;
+  top: -0.1em;
+  text-align-last: left;
+  line-height: 42px;
+  font-family: "Roboto", sans-serif;
+  opacity: 55%;
+}
+.bahinhnho img {
+  height:32%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  border-radius: 20px;
+  justify-content: space-around;
+  position: relative;
+  left: 5px;
+}
+.bahinhnho {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  top:0;
+}
+.right__here  {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 35px;
+  position: absolute;
+  height: 100%;
+  left: 300px;
+  opacity: 55%;
+}
+.bigimg {
+width: 57%;
+height: 99%;
+position: absolute;
+left: 330px;
+border-radius: 10px;
+border: rgba(184, 184, 184, 0.6) solid;
+top:1px;
+}
+.bigimg img {
+  width: 100%;
+  height: 80%;
+}
+.miniqc {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+  color:#3b3b3b;
+  font-size: 18px;
+  position: relative;
+  top: 30px;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
