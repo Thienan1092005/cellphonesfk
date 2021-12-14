@@ -83,7 +83,7 @@
   font-weight: bold;
 }
 .timkiemvatpham input {
-  width: 350px;
+  width: 390px;
   height: 40px;
   background-color: white;
   border-radius: 30px;
@@ -118,7 +118,6 @@ input::-webkit-input-placeholder {
   border-radius: 20px;
   text-align: center;
 }
-/* dien  thoai cua an cute  */
 .dienthoai__flex {
   display: flex;
   position: relative;
@@ -217,9 +216,7 @@ input::-webkit-input-placeholder {
 .cener {
   position: relative;
   left: -20px;
-  /* display: none; */
 }
-/* ca san pham dang hot cua shop  */
 .cacspdthhot {
   padding: 0 25px;
   width: 90%;
@@ -231,7 +228,6 @@ input::-webkit-input-placeholder {
   font-size: 50px;
   font-family: "Bakbak One", cursive;
 }
-/* san pham  */
 .card {
   position: relative;
   width: 19%;
@@ -277,107 +273,6 @@ input::-webkit-input-placeholder {
   font-size: 30px;
   font-family: "Roboto", sans-serif;
   top: 150px;
-}
-.boxmore{
-display: flex;
-justify-content: space-between;
-}
-.boxmore2{
-display: flex;
-justify-content: space-between;
-flex-direction: row-reverse;
-margin-top:15px;
-}
-.boxmore__item__1{
-width: 9%;
-height: 150px;
-background-color: #fca5a5;
-border-radius: 10px;
-color: white;
-font-size:25px;
-text-align: center;
-}
-.boxmore__item__2 {
-  width: 9%;
-height: 150px;
-background-color: #FDA4AF;
-border-radius: 10px;
-color: white;
-font-size:25px;
-text-align: center;
-}
-.boxmore__item__3{
-  width: 9%;
-  height: 150px;
-  background-color: #F9A8D4;
-  border-radius: 10px;
-  color: white;
-  font-size:25px;
-  text-align: center;
-}
-.boxmore__item__4{
-  width: 9%;
-  height: 150px;
-  background-color: #C4B5FD;
-  border-radius: 10px;
-  color: white;
-  font-size:25px;
-  text-align: center;
-}
-.boxmore__item__5{
-  width: 9%;
-  height: 150px;
-  background-color: #A5B4FC;
-  border-radius: 10px;
-  color: white;
-  font-size:25px;
-  text-align: center;
-}
-.boxmore__item__6{
-  width: 9%;
-  height: 150px;
-  background-color: #93C5FD;
-  border-radius: 10px;
-  color: white;
-  font-size:25px;
-  text-align: center;
-}
-.boxmore__item__7{
-  width: 9%;
-  height: 150px;
-  background-color: #6EE7B7;
-  border-radius: 10px;
-  color: white;
-  font-size:25px;
-  text-align: center;
-}
-.boxmore__item__8{
-  width: 9%;
-  height: 150px;
-  background-color: #FCD34D;
-  border-radius: 10px;
-  color: white;
-  font-size:25px;
-  text-align: center;
-}
-.boxmore__item__9{
-  width: 9%;
-  height: 150px;
-  background-color: #FDBA74;
-  border-radius: 10px;
-  color: white;
-  font-size:25px;
-  text-align: center;
-}
-.boxmore__item__10{
-  width: 9%;
-  height: 150px;
-  background-color: #D1D5DB;
-  border-radius: 10px;
-  color: white;
-  font-size:25px;
-  text-align: center;
-
 }
 .end {
   position: relative;
@@ -425,6 +320,7 @@ text-align: center;
   background: rgb(251,33,117);
     background: linear-gradient(0deg, rgba(251,33,117,1) 0%, rgba(234,76,137,1) 100%);
     overflow: hidden;
+    border-radius: 50px;
 }
 .fbadmin a {
   text-decoration:none ;
@@ -452,7 +348,7 @@ justify-content: space-between;
 }
 .hinhanh img {
   width: 24%;
-  height: 250px;
+  height: 230px;
   border-radius: 20px;
 }
 .ctth {
@@ -555,13 +451,12 @@ top:1px;
   position: relative;
   top: 30px;
   font-weight: 500;
+  text-align: center;
 }
 
-
-
-
-
-
-
-
-
+  .test img{
+height: 350px;
+width: 1830px;
+position: relative;
+right: 90px;
+  }
