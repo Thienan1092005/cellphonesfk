@@ -127,3 +127,6 @@ ul,
 li {
   list-style: none;
 }
+* {
+  border: none;
+}
