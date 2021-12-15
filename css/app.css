@@ -542,4 +542,19 @@ right: 90px;
   color: #343a40;
   font-family: "Roboto", sans-serif;
 }
+.fiixbug {
+  width: 320px;
+  height: 570px;
+  background-color:white;
+  position: absolute;
+  z-index: 2;
+  left: 300px;
+  DISPLAY:NONE;
+}
+.menu__list:hover .fiixbug {
+  display: block;
+}
+.menu__list {
+  cursor:pointer;
+}
 
