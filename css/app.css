@@ -471,9 +471,6 @@ right: 90px;
   bottom: 0;
   right: 0;
   }
-.menu__list__item:hover {
-  background-color: #ff00cc;
-}
 .menu__list__item:hover .menu__child {
   display: block;
 }
@@ -497,8 +494,9 @@ right: 90px;
   position: absolute;
   background-color:white;
   width: 315px;
-  height: 510px;
+  height: 550px;
   z-index: 4;
+  top:0%
 }
 .menu__child__item {
   font-size: 30px;
@@ -509,9 +507,7 @@ right: 90px;
   bottom: 0;
   right: 0;
 }
-.menu__child__item:hover {
-  background-color: #ff00cc;
-}
+
 .menu__child__item span {
     flex:1;
     line-height: 29px;
@@ -539,3 +535,11 @@ right: 90px;
 .menu__child__item:hover .iphonepro {
   display: block;
 }
+.menu__child p {
+  line-height: 37px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #343a40;
+  font-family: "Roboto", sans-serif;
+}
+
