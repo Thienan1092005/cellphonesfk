@@ -5,6 +5,7 @@
   background-color: #d70018;
   position: fixed;
   top: 0;
+  z-index: 5;
 }
 .left__item img {
   height: 80px;
@@ -449,6 +450,7 @@ width: 1830px;
 position: relative;
 right: 90px;
   }
+  /* menu trai  */
   .menu__list {
     display: flex;
     justify-content: space-between;
@@ -456,7 +458,6 @@ right: 90px;
     position: absolute;
     border-radius: 20px;
     border:1px solid rgb(189, 189, 189);
-    width: 200px;
     width: 315px;
     height: 510px;
 
@@ -468,10 +469,13 @@ right: 90px;
   display: flex;
   transition: background-color 0.2s linear;
   bottom: 0;
-  right: 0;;
+  right: 0;
   }
 .menu__list__item:hover {
   background-color: #ff00cc;
+}
+.menu__list__item:hover .menu__child {
+  display: block;
 }
 .menu__list__item span {
     flex:1;
@@ -486,5 +490,52 @@ right: 90px;
     position: absolute;
     left: 50px;
     font-family: "Roboto", sans-serif;
-
+}
+.menu__child {
+  display: none;
+  left: 310px;
+  position: absolute;
+  background-color:white;
+  width: 315px;
+  height: 510px;
+  z-index: 4;
+}
+.menu__child__item {
+  font-size: 30px;
+  width: 310px;
+  justify-content: space-between;
+  display: flex;
+  transition: background-color 0.2s linear;
+  bottom: 0;
+  right: 0;
+}
+.menu__child__item:hover {
+  background-color: #ff00cc;
+}
+.menu__child__item span {
+    flex:1;
+    line-height: 29px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #343a40;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    position: absolute;
+    left: 50px;
+    font-family: "Roboto", sans-serif;
+}
+.iphonepro {
+  position: absolute;
+  background-color: white;
+  left: 310px;
+  height: 100%;
+  width: 300px;
+  line-height: 29px;
+  font-size: 18px;
+  display: none;
+}
+.menu__child__item:hover .iphonepro {
+  display: block;
 }
