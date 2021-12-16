@@ -1,7 +1,7 @@
 /* nav bar  */
 .navbar {
   width: 100%;
-  height: 80px;
+  height: 60px;
   /* nhiều màu đẹp quá nên e vứt tạm ở đây nha thầy :)) */
   background-color: #d70018;
   background-color: #222222;
@@ -13,11 +13,11 @@
   z-index: 5;
 }
 .left__item img {
-  height: 80px;
+  height: 50px;
 }
 .left__item ion-icon {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   left: 20px;
   position: relative;
 }
@@ -27,12 +27,16 @@
 }
 .right__item {
   color: white;
-  margin: 0px 30px 0px 50px;
-  font-size: 16px;
+  margin: 0px 20px 0px 20px;
+  font-size: 12px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   display: flex;
   align-items: center;
+  line-height: 15px;
+  position: relative;
+  right: 40px;
+
 }
 .abc {
   position: relative;
@@ -75,6 +79,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  height: 50px;
 }
 .left__item ion-icon {
   width: 40px;
@@ -89,18 +95,20 @@
   font-weight: bold;
 }
 .timkiemvatpham input {
-  width: 390px;
-  height: 40px;
+  width: 300px;
+  height: 30px;
   background-color: white;
   border-radius: 30px;
   text-align: center;
   border: none;
+  position: relative;
+  right: 35px;
 }
 .checkgiahcm {
   cursor: pointer;
   border-radius: 20px;
-  height: 60px;
-  width: 130px;
+  height: 50px;
+  width: 110px;
   background: rgba(255, 255, 255, 0.2);
   display: flex;
   align-items: center;
