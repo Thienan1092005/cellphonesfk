@@ -21,10 +21,15 @@
   left: 20px;
   position: relative;
 }
+.call {
+  position: relative;
+  right: 30px;
+}
 .right {
   display: flex;
   justify-content: space-between;
 }
+
 .right__item {
   color: white;
   margin: 0px 20px 0px 20px;
@@ -40,32 +45,44 @@
 }
 .abc {
   position: relative;
-  width: 40px;
-  height: 40px;
-  right: 20px;
+  width: 30px;
+  height: 30px;
+  right: 40px;
 }
 .abc2 {
   position: relative;
-  width: 40px;
-  height: 40px;
-  right: 10px;
+  width: 30px;
+  height: 30px;
+  right: 50px;
+  bottom: 1px;
+}
+.chgn   {
+  position: relative;
+  right: 35px;
 }
 .abc3 {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 380px;
+  width: 30px;
+  height: 30px;
+  right: 70px;
+}
+.tcdh {
+  position: relative;
+  right: 10px;
 }
 .abc4 {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 240px;
+  width: 30px;
+  height: 30px;
+  right: 30px;
+}
+.gh {
+  position: relative;
+  right: -5px;
 }
 .abc5 {
-  position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   right: 100px;
 }
 .navbar__item {
@@ -114,7 +131,19 @@
   align-items: center;
   font-size: 15px;
 }
+.back {
+  cursor: pointer;
+  border-radius: 20px;
+  height: 40px;
+  width: 75px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  position: relative;
+  flex-direction: column;
 
+}
 input,
 input::-webkit-input-placeholder {
   font-size: 20px;
@@ -125,11 +154,11 @@ input::-webkit-input-placeholder {
 /* phan than web   */
 
 .sanphamsale {
-  height: 550px;
-  width: 1640px;
+  height: 421px;
+  width: 1230px;
   background-image: linear-gradient(to bottom , #33089b, #ba15d9);
   position: relative;
-  top: 120px;
+  top: 105px;
   left: 30px;
   border-radius: 20px;
   text-align: center;
@@ -137,17 +166,15 @@ input::-webkit-input-placeholder {
 .dienthoai__flex {
   display: flex;
   position:relative;
-  top: 75px;
-
+  top: 65px;
 }
 .boxed {
-  width: 300px;
-  height: 470px;
+  width: 225px;
+  height: 352px;
   background-color: white;
   border-radius: 20px;
   margin: 0 auto;
   text-align: center;
-
 }
 .boxed img {
   width: 90%;
@@ -157,19 +184,19 @@ input::-webkit-input-placeholder {
 }
 .sale {
   width: 40%;
-  height: 20px;
+  height: 13.5px;
   border-radius: 20px;
   color: white;
   background-color: red;
   position: relative;
-  bottom: 280px;
+  bottom: 210px;
   font-size: 20px;
   right: 80px;
 }
 .tensp h1 {
-  height: 30px;
+  height: 22.5px;
   width: 90%;
-  font-size: 25px;
+  font-size: 18.75px;
   bottom: 10px;
   position: relative;
   left: 5px;
@@ -178,7 +205,7 @@ input::-webkit-input-placeholder {
   font-family: "Roboto", sans-serif;
 }
 .price h1 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #d70018;
 }
@@ -188,7 +215,7 @@ input::-webkit-input-placeholder {
   right: 50px;
 }
 .saleprice h1 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-decoration: line-through;
   color: #707070;
 }
@@ -203,11 +230,11 @@ input::-webkit-input-placeholder {
   position: relative;
   bottom: 5px;
   left: 10px;
-  font-size: 20px;
+  font-size: 12.5px;
 }
 .danhgia h1 {
   color: #707070;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   opacity: 80%;
 }
 .danhgia {
@@ -216,16 +243,15 @@ input::-webkit-input-placeholder {
   left: 45px;
 }
 .hotsale img {
-  width: 250px;
-  height: 250px;
-  bottom: 550px;
+  width: 185px;
+  height: 185px;
+  bottom: 410px;
   position: relative;
 }
 .cacspdthot {
   width: 100%;
   height: 100%;
   position: relative;
-  background-color: hotpink;
 }
 .menu__quangcao {
   position: relative;
@@ -249,7 +275,7 @@ input::-webkit-input-placeholder {
 .card {
   position: relative;
   width: 19%;
-  height: 400px;
+  height: 300px;
   background-color: white;
   border-radius: 20px;
   border:1px solid #333;
@@ -261,13 +287,13 @@ input::-webkit-input-placeholder {
 }
 .card h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 12.5px;
   position: absolute;
 }
 .mac142021gia {
   position: absolute;
-  font-size: 24px;
-  margin-top: 60px;
+  font-size: 18px;
+  margin-top: 40px;
   color: rgb(255, 82, 82);
 }
 .sao {
@@ -276,8 +302,8 @@ input::-webkit-input-placeholder {
 }
 .sao ion-icon {
   color: gold;
-  font-size: 20px;
-  margin-top: 100px;
+  font-size: 12.5px;
+  margin-top: 75px;
 }
 .apple {
   display: flex;
@@ -288,7 +314,7 @@ input::-webkit-input-placeholder {
   position: relative;
   height: auto;
   width: 90%;
-  font-size: 30px;
+  font-size: 22.5px;
   font-family: "Roboto", sans-serif;
   top: 150px;
 }
@@ -298,8 +324,8 @@ input::-webkit-input-placeholder {
   top: 180px;
 }
 .end ul li {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 13.5px;
+  line-height: 22.5px;
   font-family: "Roboto", sans-serif;
 }
 .d1 {
@@ -308,32 +334,32 @@ input::-webkit-input-placeholder {
   color:red
 }
 .pttt {
-  font-size: 25px ;
+  font-size: 18.75px ;
   font-family: "Roboto", sans-serif;
   position: relative;
   left: 80px;
-  top:2px;
+  top:50px;
 }
 .pttt img {
-  width: 400px;
-  height: 200px;
+  width: 300px;
+  height: 150px;
 }
 .pttt2 {
-  font-size: 25px ;
+  font-size: 18.75px ;
   font-family: "Roboto", sans-serif;
   position: relative;
-  top:-200px;
+  top:-120px;
   position: relative;
-  left: 600px;
+  left: 450px;
 }
 .pttt2 h1 {
-  font-size:20px;
-  right: 100px;
+  font-size:15px;
+  right: 78px;
   position: relative;
 }
 .fbadmin {
-  width: 250px;
-  height: 90px;
+  width: 153px;
+  height: 67.5px;
   border: none;
   background: rgb(251,33,117);
     background: linear-gradient(0deg, rgba(251,33,117,1) 0%, rgba(234,76,137,1) 100%);
@@ -342,7 +368,7 @@ input::-webkit-input-placeholder {
 }
 .fbadmin a {
   text-decoration:none ;
-  font-size: 20px;
+  font-size: 15px;
   color: #fff;
 }
 .fbadmin:hover {
@@ -350,15 +376,16 @@ input::-webkit-input-placeholder {
     color: #fff;
 }
 .fbadmin:hover{
-  opacity: .7;
+  opacity: 0.7;
 }
 .tmcp {
   text-align: center;
-  bottom: 80px;
+  bottom: 50px;
   position: relative;
   font-family: "Roboto", sans-serif;
   color:rgb(109, 109, 109);
   opacity: 80%;
+  font-size: 10px;
 }
 .hinhanh {
   display: flex;
@@ -366,12 +393,13 @@ justify-content: space-between;
 }
 .hinhanh img {
   width: 24%;
-  height: 210px;
+  height: 157.5px;
   border-radius: 20px;
 }
 .ctth {
   position: relative;
   margin-top: 10px;
+  font-size: 20px;
 }
 .apple1  {
 display: flex;
@@ -388,14 +416,15 @@ margin-top: 5px;
   margin-top: 5px;
   }
   .menutrai__anhgiua_baanhnhophai {
-    height: 500px;
-    width: 1640px;
+    height: 400px;;
+    width: 90%;
     position: relative;
-    top: 100px;
+    top: 70px;
     left: 30px;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: top;
   }
 
 .menu__text {
@@ -410,14 +439,15 @@ margin-top: 5px;
   opacity: 55%;
 }
 .bahinhnho img {
-  height:32%;
+  height: 128px;
   display: flex;
   flex-direction: column;
   margin-top: 2%;
   border-radius: 20px;
   justify-content: space-around;
   position: relative;
-  left: 5px;
+  left: 15px;
+
 }
 .bahinhnho {
   position: absolute;
@@ -437,9 +467,9 @@ margin-top: 5px;
 }
 .bigimg {
 width: 57%;
-height: 99%;
+height: 100%;
 position: absolute;
-left: 330px;
+left: 230px;
 border-radius: 10px;
 border: rgba(184, 184, 184, 0.6) solid;
 top:1px;
@@ -455,7 +485,7 @@ top:1px;
   justify-content: space-around;
   font-family: "Roboto", sans-serif;
   color:#3b3b3b;
-  font-size: 18px;
+  font-size: 14px;
   position: relative;
   top: 30px;
   font-weight: 500;
@@ -463,8 +493,8 @@ top:1px;
 }
 
   .test img{
-height: 350px;
-width: 1830px;
+height: 267px;
+width: 1450px;
 position: relative;
 right: 90px;
   }
@@ -476,13 +506,13 @@ right: 90px;
     position: absolute;
     border-radius: 20px;
     border:1px solid rgb(189, 189, 189);
-    width: 315px;
-    height: 510px;
+    width: 220px;
+    height: 100%;
 
   }
   .menu__list__item {
-  font-size: 30px;
-  width: 310px;
+  font-size: 15px;
+  width: 210px;
   justify-content: space-between;
   display: flex;
   transition: background-color 0.2s linear;
@@ -494,8 +524,8 @@ right: 90px;
 }
 .menu__list__item span {
     flex:1;
-    line-height: 29px;
-    font-size: 18px;
+    line-height: 15px;
+    font-size: 14px;
     font-weight: 700;
     color: #343a40;
     display: -webkit-box;
@@ -508,28 +538,29 @@ right: 90px;
 }
 .menu__child {
   display: none;
-  left: 310px;
+  left:221px;
   position: absolute;
-  background-color:white;
-  width: 315px;
-  height: 550px;
+  width: 200px;
+  height: 450px;
   z-index: 4;
-  top:0%
+  top:0%;
+  background-color: white;
 }
 .menu__child__item {
-  font-size: 30px;
-  width: 310px;
+  font-size: 20px;
+  width: 200px;
   justify-content: space-between;
   display: flex;
   transition: background-color 0.2s linear;
   bottom: 0;
   right: 0;
+
 }
 
 .menu__child__item span {
     flex:1;
-    line-height: 29px;
-    font-size: 18px;
+    line-height: 14px;
+    font-size: 15px;
     font-weight: 700;
     color: #343a40;
     display: -webkit-box;
@@ -540,12 +571,13 @@ right: 90px;
     left: 50px;
     font-family: "Roboto", sans-serif;
 }
+
 .iphonepro {
   position: absolute;
   background-color: white;
-  left: 310px;
+  left: 200px;
   height: 100%;
-  width: 300px;
+  width: 200px;
   line-height: 29px;
   font-size: 18px;
   display: none;
@@ -554,26 +586,20 @@ right: 90px;
   display: block;
 }
 .menu__child p {
-  line-height: 37px;
+  line-height: 25px;
   font-size: 20px;
   font-weight: 600;
   color: #343a40;
   font-family: "Roboto", sans-serif;
-}
-.fiixbug {
-  width: 320px;
-  height: 570px;
-  background-color:white;
-  position: absolute;
-  z-index: 2;
-  left: 300px;
-  DISPLAY:NONE;
 }
 .menu__list:hover .fiixbug {
   display: block;
 }
 .menu__list {
   cursor:pointer;
+}
+.menu__child h1 {
+  font-size: 15px;
 }
 
 
